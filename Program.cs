@@ -32,3 +32,16 @@ void FillArray (string [] Array1)
         }
     }
 }
+
+void PrintArray (string [] array2)
+{
+    for (int i = 0; i < array2.Length; i++)
+    {
+        if (i==array2.Length-1) System.Console.Write($"{array2[i]}");
+        else System.Console.Write($"{array2[i]}, ");
+    }
+}
+HowManyWordsIsLessThen4(textArray);
+string [] finalArray = new string [quantityLessThen4];
+FillArray(finalArray);
+PrintArray(finalArray);
