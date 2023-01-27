@@ -1,2 +1,6 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Программа, которая из имеющегося массива строк, формирует массив строк, длина которых меньше, либо
+// равна 3 символа. 
+// Примеры:
+// ["hello"], "2", "world", ":-)"]->["2",":-)"]
+// ["1,2,3,4"], "1567", "-2", "computer science"]->["-2"]
+// ["Russia", "Denmark", "Kazan"] - > []
